@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	const name = "Jimmy McGill"
+	const openRate = 2.5
+
+	msg:= fmt.Sprintf("Hi %s, your open rate is %.1f percent\n", name, openRate)
+
+	// don't edit below this line
+
+	fmt.Print(msg)
+}
