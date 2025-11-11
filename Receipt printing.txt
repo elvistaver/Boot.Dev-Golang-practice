@@ -2,14 +2,14 @@ package main
 import "fmt"
 
 func main(){
-	const storeName := "John G Stores"
+	const storeName = "John G Stores"
 	product :="Bread"
 	price := 250
 	discount := 20.99
 
 	quantity := 3
 	subtotal := price * quantity
-	total := subtotal - discount
+	total := float64(subtotal) - discount
 
 	fmt.Printf("%s\n", storeName)
 	fmt.Println("==============================")
@@ -20,6 +20,7 @@ func main(){
 	fmt.Printf("Subtotal: $%d\n", subtotal)
 	fmt.Println("==============================")
 	fmt.Printf("Total:: $%.2f\n",total)
+
 
 
 
