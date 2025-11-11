@@ -1,0 +1,29 @@
+package main
+import "fmt"
+
+func main(){
+	const storeName := "John G Stores"
+	product :="Bread"
+	price := 250
+	discount := 20.99
+
+	quantity := 3
+	subtotal := price * quantity
+	total := subtotal - discount
+
+	fmt.Printf("%s\n", storeName)
+	fmt.Println("==============================")
+	fmt.Printf("Item: %s :::Quantity: %d\n",product, quantity)
+	fmt.Println("==============================")
+	fmt.Printf("Price: $%d :::Discount: $%.2f\n",price, discount)
+	fmt.Println("==============================")
+	fmt.Printf("Subtotal: $%d\n", subtotal)
+	fmt.Println("==============================")
+	fmt.Printf("Total:: $%.2f\n",total)
+
+
+
+
+
+
+}
