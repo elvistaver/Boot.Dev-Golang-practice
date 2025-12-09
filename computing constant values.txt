@@ -8,8 +8,8 @@ func main() {
 	const minutesInHour = 60
 	
 	const secondsInHour = secondsInMinute * minutesInHour
-	
-	// don't edit below this line
+
 	
 	fmt.Println("number of seconds in an hour:", secondsInHour)
+
 }
