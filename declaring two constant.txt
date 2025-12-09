@@ -6,10 +6,9 @@ func main() {
 	const basicPlanName = "Basic Plan"
 	const premiumPlanName = "premium plan"
 
-	// don't edit below this line
-
 	fmt.Println("plan:", premiumPlanName)
 
 	fmt.Println("plan:", basicPlanName)
 }
+
 
