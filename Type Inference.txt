@@ -6,6 +6,7 @@ func main() {
 	
 	penniesPerText := float64(2) // both this penniesperText := float64(2) and penniesperText :=2. is valid
 
-	// don't edit below this line
+
 	fmt.Printf("The type of penniesPerText is %T\n", penniesPerText)
 }
+
