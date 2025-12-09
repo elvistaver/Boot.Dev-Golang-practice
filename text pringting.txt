@@ -9,11 +9,10 @@ func main() {
 
 	var confirm string = "Message sent!"
 
-	// don't touch below this line
-
 	fmt.Println(startup)
 
 	fmt.Println(message)
 
 	fmt.Println(confirm)
+
 }
