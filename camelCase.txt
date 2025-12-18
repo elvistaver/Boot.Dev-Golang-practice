@@ -19,5 +19,6 @@ func toCamelCase(Camel string) string {
 }
 
 func main() {
-	fmt.Println(toCamelCase("HI Elvis GBAa"))
+	fmt.Println(toCamelCase("HI tavershima elvis  gBAa"))
 }
+
