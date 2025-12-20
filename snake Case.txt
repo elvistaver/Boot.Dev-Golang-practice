@@ -1,0 +1,30 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func isSnakeCase(input string) string {
+
+	words := strings.Split(input, " ")
+
+	for i := 0; i < len(words); i++ {
+
+		words[i] = strings.ToLower(words[i])
+	}
+	result := strings.Join(words, "_")
+	return result
+
+}
+
+func main() {
+	fmt.Println(isSnakeCase("Hello, to tHE World! OF GOLD and MINES"))
+}
+
+
+
+
+
+
+
